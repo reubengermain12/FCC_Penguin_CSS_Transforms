@@ -6,9 +6,6 @@ body {
   height: 100vh;
   overflow: clip;
 }
-
-/*As the .ground element will be third in the stacking context of the page layout, i've set its z-index to 3, and position to absolute.*/
-
 .ground {
   width: 100vw;
   height: 400px;
