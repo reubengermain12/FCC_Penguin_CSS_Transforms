@@ -11,6 +11,8 @@ body {
   height: 300px;
   margin: auto;
   margin-top: 75px;
+
+  /*To overlap the mountain and .ground elements better, I gave the mountain a margin-top of 100px, and the .ground element a margin-top of -58px.*/
 }
 .ground {
   width: 100vw;
@@ -18,6 +20,7 @@ body {
   background: linear-gradient(90deg, rgb(88, 175, 236), rgb(182, 255, 255));
   z-index: 3;
   position: absolute;
+  margin-top: -58px;
 }
 .left-mountain {
   width: 300px;
@@ -26,4 +29,5 @@ body {
   position: absolute;
   transform: skew(0deg, 44deg);
   z-index: 2;
+  margin-top: 100px;
 }
