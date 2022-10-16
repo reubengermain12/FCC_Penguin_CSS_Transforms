@@ -6,3 +6,7 @@ body {
   height: 100vh;
   overflow: clip;
 }
+.ground {
+  width: 100vw;
+  height: 400px;
+}
