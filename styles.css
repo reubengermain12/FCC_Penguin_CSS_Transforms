@@ -66,6 +66,9 @@ body {
   width: 60%;
   height: 70%;
   background-color: white;
+  border-radius: 70%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
 }
 
 .penguin-body {
