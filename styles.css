@@ -84,6 +84,12 @@ body {
   width: 90%;
   height: 70%;
   background-color: white;
+  top: 25%;
+  left: 5%;
+  border-top-left-radius: 70%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
 }
 
 .penguin-body {
