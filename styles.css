@@ -11,8 +11,6 @@ body {
   height: 300px;
   margin: auto;
   margin-top: 75px;
-
-  /*To overlap the mountain and .ground elements better, I gave the mountain a margin-top of 100px, and the .ground element a margin-top of -58px.*/
 }
 .ground {
   width: 100vw;
