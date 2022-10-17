@@ -260,8 +260,6 @@ body {
   transform: rotate(-80deg);
 }
 
-/*Finally, I calculated the height of the .ground element to be the height of the viewport minus the height of the .penguin element.*/
-
 .ground {
   width: 100vw;
   height: 400px;
