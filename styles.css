@@ -184,8 +184,6 @@ body {
   left: 23.5%;
 }
 
-/*Rounded off the crest, by giving the pseudo-element bottom corners a radius of 100%, leaving the top corners at 0%.*/
-
 .penguin-body::before {
   content: "";
   position: absolute;
@@ -196,6 +194,12 @@ body {
   left: 25%;
   border-radius: 0% 0% 100% 100%;
   opacity: 70%;
+}
+
+.foot {
+  width: 15%;
+  height: 30%;
+  background-color: orange;
 }
 
 .ground {
