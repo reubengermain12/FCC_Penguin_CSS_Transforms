@@ -43,6 +43,8 @@ body {
   right: -75px;
 }
 
+/*I changed the .penguin element's transition behavior during transformation to have a duration of 1s, a timing function of ease-in-out, and a delay of 0ms.*/
+
 .penguin {
   width: 300px;
   height: 300px;
@@ -50,6 +52,7 @@ body {
   margin-top: 75px;
   z-index: 4;
   position: relative;
+  transition: 1s ease-in-out 0ms;
 }
 
 .penguin * {
