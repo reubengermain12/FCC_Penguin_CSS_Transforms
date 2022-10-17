@@ -154,10 +154,6 @@ body {
   left: 42%;
 }
 
-/*If you look closely, the heart emoji is slightly different. This is because some of the character's properties were overridden by the font-weight style of bold.
-
-I  have fixed this, by targeting the div with the heart emoji, and setting its font-weight to its original value.*/
-
 .shirt {
   font-size: 25px;
   font-family: Helvetica, sans-serif;
